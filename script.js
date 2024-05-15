@@ -10,3 +10,10 @@ function getComputerChoice() {
     }
 }
 
+function getHumanChoice() {
+    let humanChoice;
+    while (humanChoice !== "rock" && humanChoice !== "paper" && humanChoice !== "scissors") {
+        humanChoice = prompt("Enter rock, paper or scissors.");
+    }
+    return humanChoice;
+}
